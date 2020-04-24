@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>banner 2</title>
+    <style>
+        a img {
+            width: 180Px;
+            height: 600px;
+            position: absolute;
+        }
+
+        div {
+            position: absolute;
+            width: 180px;
+            height: 600px;
+            background-color: #000;
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://www.ritzcarlton.com/en/hotels/new-orleans?scid=bb1a189a-fec3-4d19-a255-54ba596febe2">
+        <div>
+            <img src="images/banner3.jpg" id="banner3Img" alt="">
+        </div>
+    </a>
+
+    <script>
+        const ban3 = document.querySelector("#banner3Img");
+        ban3.addEventListener('click', function () {
+            window.open("https://www.ritzcarlton.com/en/hotels/new-orleans?scid=bb1a189a-fec3-4d19-a255-54ba596febe2https://www.ritzcarlton.com/en/hotels/new-orleans?scid=bb1a189a-fec3-4d19-a255-54ba596febe2");
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>banner 2</title>
+    <style>
+        a img {
+            width: 180Px;
+            height: 600px;
+            position: absolute;
+        }
+
+        div {
+            position: absolute;
+            width: 180px;
+            height: 600px;
+            background-color: #000;
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://www.premiumparking.com/P0402">
+        <div>
+            <img src="images/banner2.jpg" id="banner2Img" alt="">
+        </div>
+    </a>
+
+    <script>
+        const ban2 = document.querySelector("#banner2Img");
+        ban2.addEventListener('click', function () {
+            window.open("https://www.premiumparking.com/P0402");
+        });
+    </script>
+</body>
+
+</html>
